@@ -39,45 +39,45 @@ Link to backend Repo: https://github.com/mkhan42/backend-rezkeeper
 - Understanding how Django and React work together: https://www.youtube.com/watch?v=VBqJ0-imSMU
 
 # Wireframes
-![wireframe](../images/Wirefram4.jpg)
+![wireframe](./images/Wirefram4.jpg)
 
 # ERD
-![erd](../images/ERD4.jpg)
+![erd](./images/ERD4.jpg)
 
 # Project Pages
 
 ## Login Page 
-![login](../images/login.png)
+![login](./images/login.png)
 
 ## Register Page
-![register](../images/register.png)
+![register](./images/register.png)
 
 ## Home Page
-![landing](../images/landing.png)
+![landing](./images/landing.png)
 
 ## Add Form Page
-![addrest](../images/addrest.png)
+![addrest](./images/addrest.png)
 
 ## Scheduled Visits Page
-![scheduled](../images/scheduled.png)
+![scheduled](./images/scheduled.png)
 
 ## Passed Visits Page
-![passed](../images/passed.png)
+![passed](./images/passed.png)
 
 ## Update Visit Form Page
-![update](../images/updatevisit.png)
+![update](./images/updatevisit.png)
 
 ## Scheduled Visit Detail Page
-![detail](../images/scheduleddetail.png)
+![detail](./images/scheduleddetail.png)
 
 ## Passed Visit Detail Page
-![detail](././images/passed1.png)
-![detail](././images/passed2.png)
-![detail](../images/passed3.png)
-![detail](../images/passed4.png)
+![detail](./images/passed1.png)
+![detail](./images/passed2.png)
+![detail](./images/passed3.png)
+![detail](./images/passed4.png)
 
 # Icebox
-![detail](../images/trelloboard.png)
+![detail](./images/trelloboard.png)
 - Recreate this app in MERN-STACK
 - Fix styling some more
 - Make code more readable
