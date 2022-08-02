@@ -8,7 +8,7 @@ import axios from 'axios'
 
 // const baseURL = `${process.env.REACT_APP_BASE_URL}`;
 
-const baseURL = `https://rezkeeper.herokuapp.com/api`;
+// const baseURL = `https://rezkeeper.herokuapp.com/api`;
 
 
 function HistoryComponent({ upcomings }) {
@@ -31,7 +31,7 @@ function HistoryComponent({ upcomings }) {
 const [deleted, setDeleted] = useState(false);
 
 const deletePost = (id) => {
-  axios.delete(`${baseURL}/upcomings/${id}/`)
+  axios.delete(`https://rezkeeper.herokuapp.com/api/upcomings/${id}/`)
     .then((response) => {
       setDeleted(true);
     })
