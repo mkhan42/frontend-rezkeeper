@@ -54,7 +54,7 @@ return (
       <br/>
       <p className="my-schedule-p">If this is blank, it's because you haven't added anything yet!</p>
       <br/>
-      <div class="my-list-card card scroll-cards-height">
+      <div className="my-list-card card scroll-cards-height">
         {upcomings.map((upcoming) => {
           if (upcoming.user === user?.user_id) {
             console.log(today);
@@ -62,25 +62,25 @@ return (
             if (upcoming.date < today) {
               return (
                 <div key={upcoming.id}>
-                  <div class="my-list-card-two card mb-4 mr-2 ml-2">
-                    <div class="card-horizontal pt-1 mb-1 ml-1">
-                      <div class="view overlay">
+                  <div className="my-list-card-two card mb-4 mr-2 ml-2">
+                    <div className="card-horizontal pt-1 mb-1 ml-1">
+                      <div className="view overlay">
                         <Link state={upcomings} to={`/${upcoming.id}`}>
                           <img
-                            class="card-img-top"
+                            className="card-img-top"
                             src={upcoming.resturant_img}
                           />
                         </Link>
 
-                        <div class="mask rgba-white-slight"></div>
+                        <div className="mask rgba-white-slight"></div>
                       </div>
-                      <div class="card-body">
+                      <div className="card-body">
                         <Link state={upcomings} to={`/${upcoming.id}`}>
-                          <h6 class="card-title my-list-title">
+                          <h6 className="card-title my-list-title">
                             {upcoming.resturant_name}
                           </h6>
                         </Link>
-                        <p class="card-text my-card-text">
+                        <p className="card-text my-card-text">
                           <span className="my-planned-date-span"> Planned Date</span>: {" "}
                           {new Date(upcoming.date).toLocaleDateString(
                             "en-us",
@@ -92,8 +92,8 @@ return (
                             }
                           )}
                         </p>
-                        <div class="card-footer">
-                          <span class="float-left ml-n4">
+                        <div className="card-footer">
+                          <span className="float-left ml-n4">
                           <span className="my-planned-date-span">Created</span>:{" "}
                             {new Date(upcoming.created_at).toLocaleDateString(
                               "en-us",

@@ -63,9 +63,9 @@ function EditPost({ upcomings }) {
     return (
       <div className='move-form'>
       <h1 className='add'>Update Your Visit</h1>
-      <div class="card add-card" style={{width: "18rem"}}>
+      <div className="card add-card" style={{width: "18rem"}}>
       <form className="add-form" onSubmit={handleSubmit}>
-      <div class="card-body">
+      <div className="card-body">
                <div className='mb-3'>
                    <label htmlFor='resturant_name' className='form-label my-add-form-label'>Restaurant Name</label>
                    <input type="text" name="resturant_name" className='form-control my-form-control' id="resturant_name" placeholder='Enter Name' value={editUpcoming.resturant_name} onChange={handleChange}/>

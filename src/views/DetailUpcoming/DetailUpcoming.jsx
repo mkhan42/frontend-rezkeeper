@@ -219,12 +219,12 @@ const DetailUpcoming = () => {
 
   return (
     <div className="move-detail-card">
-      <div class="card my-detail-card" style={{ width: "18rem" }}>
+      <div className="card my-detail-card" style={{ width: "18rem" }}>
         <h2 className="my-rest-visit">Resturant Visit Details</h2>
         <hr></hr>
         <div>
           <h3 className="my-rest-name">{upcoming.resturant_name}</h3>
-          <img src={upcoming.resturant_img} class="card-img-top" alt="..." />
+          <img src={upcoming.resturant_img} className="card-img-top" alt="..." />
           <br/>
           <br/>
           <div>
