@@ -1,0 +1,77 @@
+.move-card {
+    margin-top: 240px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(60, 0, 63);
+}
+
+/* .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+} */
+
+.scroll-cards-height {
+position: relative !important;
+overflow-y: scroll !important;
+height:600px !important; 
+width: 50% !important;
+}
+
+/* .card-img-top {
+    height: 20vw;
+    width: 55vw;
+} */
+
+.my-list-title {
+    background-color: aliceblue !important;
+}
+
+.my-list-card {
+    /* background-color: whitesmoke !important; */
+    background: url('https://images.unsplash.com/photo-1607499457689-3fd1ac3ffcdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80') !important;
+    box-shadow: 5px 5px 5px rgb(71, 0, 0) !important;
+}
+
+.my-list-card-two {
+    background-color: plum !important;
+    width: 80% !important;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0) !important;
+
+}
+
+.my-user-schedule-span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.my-user-schedule{
+    font-size: 50px;
+}
+
+.my-planned-date-span{
+    font-weight: bold;
+}
+
+.my-schedule-btn{
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 15px;
+    /* box-shadow: 5px 5px 5px rgb(95, 45, 122); */
+    background-color: aliceblue !important;
+    margin-left: 10px !important;
+}
+
+.my-schedule-btn:hover {
+    filter:brightness(120%);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0)
+}
+
+.my-schedule-btn:active {
+    box-shadow: inset 2px 2px 10px rgb(255, 255, 255);
+}
+
+.my-schedule-p {
+    font-size: 20px;
+    text-decoration: underline;
+}

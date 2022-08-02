@@ -1,0 +1,26 @@
+.login-form {
+    margin-top: 20px;
+    margin-bottom: 200px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.my-log-label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-log-card {
+    background-color: #ded0fb !important;
+    box-shadow: 5px 5px 5px rgb(52, 1, 80);
+}
+
+
+.my-reg-btn {
+    background-color: #d3a7df !important;
+
+}
+
+.my-reg-btn:hover{
+    filter:brightness(120%);
+    box-shadow: 10px 10px 10px rgb(110, 81, 123)
+}
