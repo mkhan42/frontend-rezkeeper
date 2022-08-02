@@ -6,7 +6,9 @@ import './NewPostPage.css';
 
 // const baseURL = `http://127.0.0.1:8000/api`;
 
-const baseURL = `${process.env.REACT_APP_BASE_URL}`;
+// const baseURL = `${process.env.REACT_APP_BASE_URL}`;
+
+const baseURL = `https://rezkeeper.herokuapp.com/api`;
 
 function NewPostPage({}) {
   const { user, logoutUser } = useContext(AuthContext);
