@@ -71,8 +71,8 @@ Link to backend Repo: https://github.com/mkhan42/backend-rezkeeper
 ![detail](../images/scheduleddetail.png)
 
 ## Passed Visit Detail Page
-![detail](../images/passed1.png)
-![detail](../images/passed2.png)
+![detail](././images/passed1.png)
+![detail](././images/passed2.png)
 ![detail](../images/passed3.png)
 ![detail](../images/passed4.png)
 
