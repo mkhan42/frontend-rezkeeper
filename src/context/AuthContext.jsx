@@ -24,7 +24,7 @@ export const AuthProvider = ({ children }) => {
   // const baseURL = `${process.env.REACT_APP_BASE_URL}`;
 
   const loginUser = async (username, password) => {
-    const response = await fetch(`https://rezkeeper.herokuapp.com/api/token/`, {
+    const response = await fetch(`https://web-production-31a9.up.railway.app/api/token/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -47,7 +47,7 @@ export const AuthProvider = ({ children }) => {
   };
   
   const registerUser = async (username, password, password2) => {
-    const response = await fetch(`https://rezkeeper.herokuapp.com/api/register/`, {
+    const response = await fetch(`https://web-production-31a9.up.railway.app/api/register/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
