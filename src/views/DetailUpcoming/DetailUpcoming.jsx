@@ -7,9 +7,9 @@ import "./DetailUpcoming.css";
 
 // const baseURL = `${process.env.REACT_APP_BASE_URL}`;
 
-// const baseURL = `https://rezkeeper.herokuapp.com/api`;
+const baseURL = `https://rezkeeper.herokuapp.com/api`;
 
-const baseURL = `https://web-production-31a9.up.railway.app/api`;
+// const baseURL = `https://web-production-31a9.up.railway.app/api`;
 
 
 const DetailUpcoming = () => {

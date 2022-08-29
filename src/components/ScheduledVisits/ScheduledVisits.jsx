@@ -10,7 +10,7 @@ const moment = require("moment");
 
 // const baseURL = `${process.env.REACT_APP_BASE_URL}`;
 
-// const baseURL = `https://rezkeeper.herokuapp.com/api/upcomings/`;
+// const baseURL = `https://rezkeeper.herokuapp.com/api`;
 
 function ScheduledVisits({ upcomings }) {
   let { id } = useParams();
@@ -36,8 +36,9 @@ function ScheduledVisits({ upcomings }) {
   const [deleted, setDeleted] = useState(false);
 
   const deletePost = (id) => {
+    // axios.delete(`https://web-production-31a9.up.railway.app/api/upcomings/${id}/`)
     axios
-      .delete(`https://web-production-31a9.up.railway.app/api/upcomings/${id}/`)
+      .delete(`https://rezkeeper.herokuapp.com/api/upcomings/${id}/`)
       .then((response) => {
         setDeleted(true);
       })
